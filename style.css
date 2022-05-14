@@ -9,36 +9,29 @@
     border-color: white;
 }
 
-#mariod {
-    width: 100%;
-    height: 750px;
+#status {
+    border-color: grey;
+    box-shadow: 5px 5px 5px grey;
 }
 
-#startGame, #status {
-    height: 50px;
-    width: 175px;
-    border-radius: 5px;
-    font-size: large;
+ol {
+    text-align: left;
+    color: black;
+    font-size: 17px;
 }
 
-.modal-dialog {
-    width: 90%;
-}
-
-.ins_img {
-    display: inline-block;
-    width: 45%;
-}
-
-h4 {
-    background-color: white;
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     line-height: 2;
-    margin: 0px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
 }
 
-video {
-    background-image: url("game_console.png");
-    background-size: cover;
-    background-position: center;
-    padding: 25px;
+canvas {
+    background-color: white;
+    border-radius: 10px;
+    border-style: dotted;
 }

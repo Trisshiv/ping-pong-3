@@ -28,4 +28,10 @@ footer {
     position: fixed;
     width: 100%;
     font-weight: bold;
-  }
+}
+
+canvas {
+    background-color: white;
+    border-radius: 10px;
+    border-style: dotted;
+}
